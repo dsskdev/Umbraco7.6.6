@@ -1652,3 +1652,126 @@ _shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needF
  2017-09-06 15:01:32,477 [P14004/D3/T26] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
  2017-09-06 15:01:32,477 [P14004/D3/T26] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
  2017-09-06 15:01:32,492 [P14004/D3/T26] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 13ms)
+ 2017-09-06 15:26:14,490 [P14004/D4/T13] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.6 application starting on ST075893
+ 2017-09-06 15:26:14,503 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-09-06 15:26:14,515 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2017-09-06 15:26:14,555 [P14004/D4/T13] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-09-06 15:26:14,556 [P14004/D4/T13] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-09-06 15:26:14,557 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-09-06 15:26:14,766 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 208ms)
+ 2017-09-06 15:26:14,766 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-09-06 15:26:14,770 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 4ms)
+ 2017-09-06 15:26:14,780 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-09-06 15:26:14,781 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-09-06 15:26:14,781 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-09-06 15:26:14,785 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 3ms)
+ 2017-09-06 15:26:14,785 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-09-06 15:26:14,785 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-09-06 15:26:14,786 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-09-06 15:26:14,790 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 4ms)
+ 2017-09-06 15:26:14,799 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-09-06 15:26:14,799 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-09-06 15:26:14,799 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-09-06 15:26:14,804 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 4ms)
+ 2017-09-06 15:26:14,804 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-09-06 15:26:14,804 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-09-06 15:26:14,804 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-09-06 15:26:14,809 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 4ms)
+ 2017-09-06 15:26:15,590 [P14004/D4/T13] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-09-06 15:26:15,809 [P14004/D4/T13] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-09-06 15:26:15,839 [P14004/D4/T13] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-09-06 15:26:15,960 [P14004/D4/T13] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-09-06 15:26:15,962 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2017-09-06 15:26:15,965 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2017-09-06 15:26:16,152 [P14004/D4/T13] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (91ms)
+ 2017-09-06 15:26:16,175 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 18
+ 2017-09-06 15:26:16,184 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2017-09-06 15:26:16,191 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2017-09-06 15:26:16,196 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-09-06 15:26:16,196 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2017-09-06 15:26:16,197 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-09-06 15:26:16,197 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2017-09-06 15:26:16,197 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-09-06 15:26:16,198 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2017-09-06 15:26:16,198 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-09-06 15:26:16,199 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2017-09-06 15:26:16,199 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-09-06 15:26:16,199 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2017-09-06 15:26:16,200 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-09-06 15:26:16,200 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2017-09-06 15:26:16,201 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-09-06 15:26:16,209 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running full Umbraco Export
+ 2017-09-06 15:26:16,210 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Handlers.DataTypeHandler - Exporting all DataTypes.
+ 2017-09-06 15:26:16,220 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-09-06 15:26:16,220 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-09-06 15:26:16,220 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-09-06 15:26:16,226 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 5ms)
+ 2017-09-06 15:26:23,384 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Exporting all Templates
+ 2017-09-06 15:26:23,468 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Exporting all ContentTypes (DocTypes)
+ 2017-09-06 15:26:24,417 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Handlers.MediaTypeHandler - Exporting all MediaTypes
+ 2017-09-06 15:26:25,026 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Handlers.LanguageHandler - Exporting all Langauges
+ 2017-09-06 15:26:25,037 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Handlers.DictionaryHandler - Exporting all Dictionary Items
+ 2017-09-06 15:26:25,089 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.Handlers.MacroHandler - Exporting all Macros
+ 2017-09-06 15:26:25,142 [P14004/D4/T13] INFO  Jumoo.uSync.Content.MediaHandler - Exporting Media
+ 2017-09-06 15:26:25,232 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-09-06 15:26:25,232 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-09-06 15:26:25,233 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-09-06 15:26:25,238 [P14004/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 5ms)
+ 2017-09-06 15:26:25,451 [P14004/D4/T13] INFO  Jumoo.uSync.Content.ContentHandler - Exporting Content
+ 2017-09-06 15:26:25,608 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2017-09-06 15:26:25,612 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 45 items with 45 changes ###
+ 2017-09-06 15:26:25,613 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export List View - Members Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\list-view-members\ListViewMembers.config
+ 2017-09-06 15:26:25,613 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export List View - Media Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\list-view-media\ListViewMedia.config
+ 2017-09-06 15:26:25,613 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export List View - Content Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\list-view-content\ListViewContent.config
+ 2017-09-06 15:26:25,613 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Numeric Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\numeric\Numeric.config
+ 2017-09-06 15:26:25,613 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export True/false Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\true-false\Truefalse.config
+ 2017-09-06 15:26:25,613 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Checkbox list Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\checkbox-list\CheckboxList.config
+ 2017-09-06 15:26:25,614 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Dropdown Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\dropdown\Dropdown.config
+ 2017-09-06 15:26:25,614 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Date Picker Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\date-picker\DatePicker.config
+ 2017-09-06 15:26:25,614 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Radiobox Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\radiobox\Radiobox.config
+ 2017-09-06 15:26:25,614 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Dropdown multiple Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\dropdown-multiple\DropdownMultiple.config
+ 2017-09-06 15:26:25,614 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Approved Color Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\approved-color\ApprovedColor.config
+ 2017-09-06 15:26:25,614 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Date Picker with time Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\date-picker-with-time\DatePickerWithTime.config
+ 2017-09-06 15:26:25,614 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Tags Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\tags\Tags.config
+ 2017-09-06 15:26:25,614 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Image Cropper Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\image-cropper\ImageCropper.config
+ 2017-09-06 15:26:25,614 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Content Picker Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\content-picker\ContentPicker.config
+ 2017-09-06 15:26:25,615 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Member Picker Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\member-picker\MemberPicker.config
+ 2017-09-06 15:26:25,615 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Media Picker Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\media-picker\MediaPicker.config
+ 2017-09-06 15:26:25,615 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Multiple Media Picker Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\multiple-media-picker\MultipleMediaPicker.config
+ 2017-09-06 15:26:25,615 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Related Links Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\related-links\RelatedLinks.config
+ 2017-09-06 15:26:25,615 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Richtext editor Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\richtext-editor\RichtextEditor.config
+ 2017-09-06 15:26:25,615 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Umbraco Properties - Umbraco Internal Redirect Id - Content Picker Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\umbraco-properties-umbraco-internal-redirect-id-content-picker\UmbracoPropertiesUmbracoInternalRedirectIdContentPicker.config
+ 2017-09-06 15:26:25,615 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Umbraco Properties - Umbraco Redirect - Content Picker Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\umbraco-properties-umbraco-redirect-content-picker\UmbracoPropertiesUmbracoRedirectContentPicker.config
+ 2017-09-06 15:26:25,615 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Umbraco Properties - Umbraco Url Name - Textbox Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\umbraco-properties-umbraco-url-name-textbox\UmbracoPropertiesUmbracoUrlNameTextbox.config
+ 2017-09-06 15:26:25,615 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Umbraco Properties - Umbraco Url Alias - Textbox Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\umbraco-properties-umbraco-url-alias-textbox\UmbracoPropertiesUmbracoUrlAliasTextbox.config
+ 2017-09-06 15:26:25,615 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Umbraco Properties - Umbraco Navi Hide - TrueFalse Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\umbraco-properties-umbraco-navi-hide-truefalse\UmbracoPropertiesUmbracoNaviHideTrueFalse.config
+ 2017-09-06 15:26:25,616 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Umbraco Properties - Umbraco Sitemap Hide - TrueFalse Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\umbraco-properties-umbraco-sitemap-hide-truefalse\UmbracoPropertiesUmbracoSitemapHideTrueFalse.config
+ 2017-09-06 15:26:25,616 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Default Content - Textbox Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\default-content-textbox\DefaultContentTextbox.config
+ 2017-09-06 15:26:25,616 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Default Content - Page RTE - Rich Text Editor Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\default-content-page-rte-rich-text-editor\DefaultContentPageRTERichTextEditor.config
+ 2017-09-06 15:26:25,616 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Textstring Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\textstring\Textstring.config
+ 2017-09-06 15:26:25,616 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Default Content - Page Image - Media Picker Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\default-content-page-image-media-picker\DefaultContentPageImageMediaPicker.config
+ 2017-09-06 15:26:25,616 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Textarea Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\textarea\Textarea.config
+ 2017-09-06 15:26:25,616 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Default Content - Page Links - Related links Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\default-content-page-links-related-links\DefaultContentPageLinksRelatedLinks.config
+ 2017-09-06 15:26:25,616 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Upload Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\upload\Upload.config
+ 2017-09-06 15:26:25,616 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Label Umbraco.Core.Models.IDataTypeDefinition  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DataType\label\Label.config
+ 2017-09-06 15:26:25,616 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Home Umbraco.Core.Models.ITemplate  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\Template\master\home\Home.config
+ 2017-09-06 15:26:25,617 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Master Umbraco.Core.Models.ITemplate  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\Template\master\Master.config
+ 2017-09-06 15:26:25,617 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Umbraco Properties Umbraco.Core.Models.IContentType  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DocumentType\compositions\umbraco-properties\def.config
+ 2017-09-06 15:26:25,617 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Default Content Umbraco.Core.Models.IContentType  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DocumentType\compositions\default-content\def.config
+ 2017-09-06 15:26:25,617 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Home Umbraco.Core.Models.IContentType  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\DocumentType\home\def.config
+ 2017-09-06 15:26:25,617 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Folder Umbraco.Core.Models.IMedia  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\MediaType\folder\def.config
+ 2017-09-06 15:26:25,617 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Image Umbraco.Core.Models.IMedia  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\MediaType\image\def.config
+ 2017-09-06 15:26:25,617 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export File Umbraco.Core.Models.IMedia  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\MediaType\file\def.config
+ 2017-09-06 15:26:25,617 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export en-US Umbraco.Core.Models.ILanguage  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\Languages\enUS.config
+ 2017-09-06 15:26:25,617 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export cctv.jpg Umbraco.Core.Models.IMedia  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\Media\cctv.jpg\media.config
+ 2017-09-06 15:26:25,617 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Home Umbraco.Core.Models.IContent  C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\uSync\data\Content\home\content.config
+ 2017-09-06 15:26:25,623 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: C:\Dibs\Umbraco7.6.6\Umbraco7.6.6\App_Data\temp\uSync\20170906_152625_Startup.config
+ 2017-09-06 15:26:25,632 [P14004/D4/T13] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (9667ms)
+ 2017-09-06 15:26:25,734 [P14004/D4/T13] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 11294ms)
+ 2017-09-06 15:26:25,836 [P14004/D4/T14] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:60658/umbraco (UmbracoModule request)
+ 2017-09-06 15:26:25,979 [P14004/D4/T14] INFO  umbraco.content - Load Xml from file...
+ 2017-09-06 15:26:25,980 [P14004/D4/T14] INFO  umbraco.content - Loaded Xml from file.
+ 2017-09-06 15:26:29,335 [P14004/D4/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-09-06 15:26:29,335 [P14004/D4/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-09-06 15:26:29,335 [P14004/D4/T14] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2017-09-06 15:26:29,340 [P14004/D4/T14] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 4ms)
