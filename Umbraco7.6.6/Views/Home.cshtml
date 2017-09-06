@@ -1,0 +1,30 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using Umbraco.Web.Models
+@{
+    Layout = "Master.cshtml";
+}
+
+@* the fun starts here *@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>@Umbraco.Field("pageTitle")</h1>
+        </div>
+
+        <div class="col-md-12">
+            @Umbraco.Field("pageRTE")
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            @{ 
+                var image = Model.Content.GetPropertyValue<IPublishedContent>("pageImage");
+                if (image != null)
+                {
+                    <img class="img-responsive" src="@image.GetPropertyValue("umbracoFile")"/>
+                }
+            }
+        </div>
+    </div>
+</div>
