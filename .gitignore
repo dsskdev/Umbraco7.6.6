@@ -5,6 +5,7 @@
 App_Data/TEMP/*
 App_Data/cache/*
 App_Data/packages/*
+App_Data/NuGetBackup/*
 
 # User-specific files
 *.suo
